@@ -1,0 +1,582 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Socials Vanilla</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/unicons.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="
+https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/script/monochrome/bundle.min.js
+"></script>
+  <link href="
+https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css
+" rel="stylesheet">
+</head>
+
+
+<body>
+  <nav>
+    <div class="container">
+      <h2 class="logo">
+        VanillaSocial
+      </h2>
+      <div class="search-bar">
+        <i class="uil uil-search"></i>
+        <input type="search" placeholder="Search here ...">
+      </div>
+      <div class="create">
+        <label class="btn btn-primary" for="create-post">Create</label>
+        <div class="profile-pic">
+          <img src="images/people02.png" alt="profile picture">
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+      <div class="left">
+        <a class="profile">
+          <div class="profile-pic">
+            <img src="images/people02.png" alt="profile picture">
+
+          </div>
+          <div class="handle">
+            <h4>User</h4>
+            <p class="text-muted">
+              @Lorem.
+            </p>
+          </div>
+        </a>
+
+        <div class="sidebar">
+          <a class="menu-item active"><span><i class="uil uil-home">
+              </i></span>
+            <h3>Home</h3>
+          </a>
+          <a class="menu-item"><span><i class="uil uil-compass">
+              </i></span>
+            <h3>Explore</h3>
+          </a>
+          <a class="menu-item" id="notification"><span><i class="uil uil-bell"><small
+                  class="notification-count">4</small></i></span>
+            <h3>Notification</h3>
+            <div class="notification-popup">
+              <div>
+                <div class="profile-pic">
+                  <img src="images/people01.png" alt="notification profile pic">
+                </div>
+                <div class="notification-body">
+                  <b>Legion.</b> accepted your friend request
+                  <small class="text-muted"> 2 days ago</small>
+                </div>
+              </div>
+              <div>
+                <div class="profile-pic">
+                  <img src="images/people03.png" alt="notification profile pic">
+                </div>
+                <div class="notification-body">
+                  <b>Jun sing woo.</b> and <b>283</b> others Liked Your post
+                  <small class="text-muted"> 1 day ago</small>
+                </div>
+              </div>
+              <div>
+                <div class="profile-pic">
+                  <img src="images/profile.png" alt="notification profile pic">
+                </div>
+                <div class="notification-body">
+                  <b>Naruto uzumaki.</b> Tagged You
+                  <small class="text-muted"> 18 hrs ago</small>
+                </div>
+              </div>
+              <div>
+                <div class="profile-pic">
+                  <img src="images/1.jpg" alt="notification profile pic">
+                </div>
+                <div class="notification-body">
+                  <b>Lord Bolton.</b> Commented on your post
+                  <small class="text-muted"> 32 min ago</small>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="menu-item"><span><i class="uil uil-envelope-alt" id="messages-notification"><small
+                  class="notification-count">6</small>
+              </i></span>
+            <h3>Messages</h3>
+          </a>
+          <a class="menu-item"><span><i class="uil uil-bookmark">
+              </i></span>
+            <h3>Bookmarks</h3>
+          </a>
+          <a class="menu-item"><span><i class="uil uil-chart-line">
+              </i></span>
+            <h3>Analytics</h3>
+          </a>
+          <a class="menu-item" id="sidebar-theme"><span><i class="uil uil-palette">
+              </i></span>
+            <h3>Theme</h3>
+          </a>
+          <a class="menu-item"><span><i class="uil uil-setting">
+              </i></span>
+            <h3>Settings</h3>
+          </a>
+          <label for="create-post" class="btn btn-primary">Create a post</label>
+        </div>
+
+      </div>
+      <div class="middle">
+        <div class="stories">
+          <div class="story">
+            <div class="profile-pic">
+              <img src="images/people02.png" alt="stories media">
+            </div>
+            <p class="name">Your Story</p>
+          </div>
+          <div class="story">
+            <div class="profile-pic">
+              <img src="images/2.jpg" alt="stories media">
+            </div>
+            <p class="name">James Doe</p>
+          </div>
+          <div class="story">
+            <div class="profile-pic">
+              <img src="images/5.jfif" alt="stories media">
+            </div>
+            <p class="name">Alexandria</p>
+          </div>
+          <div class="story">
+            <div class="profile-pic">
+              <img src="images/6.jpg" alt="stories media">
+            </div>
+            <p class="name">Itachi Uchiha</p>
+          </div>
+          <div class="story">
+            <div class="profile-pic">
+              <img src="images/8.jpg" alt="stories media">
+            </div>
+            <p class="name">Akatsuki</p>
+          </div>
+          <div class="story">
+            <div class="profile-pic">
+              <img src="images/9.jpg" alt="stories media">
+            </div>
+            <p class="name">Zaheer Rahima</p>
+          </div>
+
+        </div>
+
+        <form action="" class="create-post">
+          <div class="profile-pic">
+            <img src="images/people02.png" alt="post profile image">
+
+          </div>
+          <input type="text" placeholder="whats on your mind" id="create-post">
+          <input type="submit" value="post" class="btn btn-primary">
+
+        </form>
+
+        <div class="feeds">
+          <div class="feed">
+            <div class="head">
+              <div class="user">
+                <div class="profile-pic">
+                  <img src="images/pic1.jpg" alt="feed profile image">
+                </div>
+                <div class="info">
+                  <h3>Bruce Wayne</h3>
+                  <small>Arkham, 3min ago</small>
+                </div>
+              </div>
+              <span class="edit">
+                <i class="uil uil-ellipsis-h"></i>
+              </span>
+            </div>
+            <div class="photo">
+              <img src="images/pic7.jpg" alt="feed image">
+            </div>
+            <div class="action-btns">
+              <div class="interaction-btns">
+                <span><i class="uil uil-heart"></i></span>
+                <span><i class="uil uil-comment-dots"></i></span>
+                <span><i class="uil uil-share-alt"></i></span>
+              </div>
+              <div class="bookmark">
+                <span><i class="uil uil-bookmark-full"></i></span>
+              </div>
+            </div>
+            <div class="liked-by">
+              <span><img src="images/pic8.jpg" alt="liked profile images"></span>
+              <span><img src="images/pic1.jpg" alt="liked profile images"></span>
+              <span><img src="images/people01.png" alt="liked profile images"></span>
+              <p>Liked by
+                <b> Clark Kent </b>
+                and <b>
+                  1111 others</b>
+              </p>
+            </div>
+            <div class="caption">
+              <p><b>Bruce Wayne</b>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel harum
+                vero dolorem? <span class="harsh-tag">#Lifestye</span>
+              </p>
+            </div>
+            <div class="comments text-muted">
+              <span>View all comments</span>
+            </div>
+
+          </div>
+          <div class="feed">
+            <div class="head">
+              <div class="user">
+                <div class="profile-pic">
+                  <img src="images/pic1.jpg" alt="feed profile image">
+                </div>
+                <div class="info">
+                  <h3> Arya Stark</h3>
+                  <small>Braavos, 2hrs ago</small>
+                </div>
+              </div>
+              <span class="edit">
+                <i class="uil uil-ellipsis-h"></i>
+              </span>
+            </div>
+            <div class="photo">
+              <img src="images/pic9.jpg" alt="feed image">
+            </div>
+            <div class="action-btns">
+              <div class="interaction-btns">
+                <span><i class="uil uil-heart"></i></span>
+                <span><i class="uil uil-comment-dots"></i></span>
+                <span><i class="uil uil-share-alt"></i></span>
+              </div>
+              <div class="bookmark">
+                <span><i class="uil uil-bookmark-full"></i></span>
+              </div>
+            </div>
+            <div class="liked-by">
+              <span><img src="images/pic8.jpg" alt="liked profile images"></span>
+              <span><img src="images/pic1.jpg" alt="liked profile images"></span>
+              <span><img src="images/people01.png" alt="liked profile images"></span>
+              <p>Liked by
+                <b> King Ice</b>
+                and <b>
+                  1111 others</b>
+              </p>
+            </div>
+            <div class="caption">
+              <p><b></b>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel harum
+                vero dolorem? <span class="harsh-tag">#Explore</span>
+              </p>
+            </div>
+            <div class="comments text-muted">
+              <span>View all comments</span>
+            </div>
+
+          </div>
+          <div class="feed">
+            <div class="head">
+              <div class="user">
+                <div class="profile-pic">
+                  <img src="images/pic1.jpg" alt="feed profile image">
+                </div>
+                <div class="info">
+                  <h3>Mario Mush</h3>
+                  <small>Jungle Kingdom, 23 hrs ago</small>
+                </div>
+              </div>
+              <span class="edit">
+                <i class="uil uil-ellipsis-h"></i>
+              </span>
+            </div>
+            <div class="photo">
+              <img src="images/about03.png" alt="feed image">
+            </div>
+            <div class="action-btns">
+              <div class="interaction-btns">
+                <span><i class="uil uil-heart"></i></span>
+                <span><i class="uil uil-comment-dots"></i></span>
+                <span><i class="uil uil-share-alt"></i></span>
+              </div>
+              <div class="bookmark">
+                <span><i class="uil uil-bookmark-full"></i></span>
+              </div>
+            </div>
+            <div class="liked-by">
+              <span><img src="images/pic8.jpg" alt="liked profile images"></span>
+              <span><img src="images/pic1.jpg" alt="liked profile images"></span>
+              <span><img src="images/profile.png" alt="liked profile images"></span>
+              <p>Liked by
+                <b> Peach </b>
+                and <b>
+                  1111 others</b>
+              </p>
+            </div>
+            <div class="caption">
+              <p><b>Mario </b>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel harum
+                vero dolorem? <span class="harsh-tag">#Gaming</span>
+              </p>
+            </div>
+            <div class="comments text-muted">
+              <span>View all comments</span>
+            </div>
+
+          </div>
+          <div class="feed">
+            <div class="head">
+              <div class="user">
+                <div class="profile-pic">
+                  <img src="images/pic4.jpg" alt="feed profile image">
+                </div>
+                <div class="info">
+                  <h3>NF</h3>
+                  <small>Rhoade island, 2 days ago</small>
+                </div>
+              </div>
+              <span class="edit">
+                <i class="uil uil-ellipsis-h"></i>
+              </span>
+            </div>
+            <div class="photo">
+              <img src="images/about01.png" alt="feed image">
+            </div>
+            <div class="action-btns">
+              <div class="interaction-btns">
+                <span><i class="uil uil-heart"></i></span>
+                <span><i class="uil uil-comment-dots"></i></span>
+                <span><i class="uil uil-share-alt"></i></span>
+              </div>
+              <div class="bookmark">
+                <span><i class="uil uil-bookmark-full"></i></span>
+              </div>
+            </div>
+            <div class="liked-by">
+              <span><img src="images/pic8.jpg" alt="liked profile images"></span>
+              <span><img src="images/pic1.jpg" alt="liked profile images"></span>
+              <span><img src="images/pic6.jpg" alt="liked profile images"></span>
+              <p>Liked by
+                <b> James </b>
+                and <b>
+                  1111 others</b>
+              </p>
+            </div>
+            <div class="caption">
+              <p><b>Bruce Wayne</b>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel harum
+                vero dolorem? <span class="harsh-tag">#music</span>
+              </p>
+            </div>
+            <div class="comments text-muted">
+              <span>View all comments</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="right">
+        <div class="messages">
+          <div class="heading">
+            <h4>Messages</h4><i class="uil uil-edit"></i>
+          </div>
+          <div class="search-bar">
+            <i class="uil uil-search"></i>
+            <input type="search" placeholder="search messages" id="message-search">
+          </div>
+          <div class="category">
+            <h6 class="active">
+              Primary
+            </h6>
+            <h6>General</h6>
+            <h6 class="message-requests">Requests (15)</h6>
+          </div>
+          <div class="message">
+            <div class="profile-pic">
+              <img src="images/about01.png" alt="messages profile image">
+              <div class="active"></div>
+            </div>
+            <div class="message-body">
+              <h5>Erin Jerger</h5>
+              <p class="text-muted">You got the stuff?</p>
+            </div>
+          </div>
+          <div class="message">
+            <div class="profile-pic">
+              <img src="images/pic4.jpg" alt="messages profile image">
+              <div class="active"></div>
+            </div>
+            <div class="message-body">
+              <h5>Morty</h5>
+              <p class="text-bold">8 new messages</p>
+            </div>
+          </div>
+          <div class="message">
+            <div class="profile-pic">
+              <img src="images/pic2.jpg" alt="messages profile image">
+            </div>
+            <div class="message-body">
+              <h5>Jigen</h5>
+              <p class="text-muted">heard you leveled up </p>
+            </div>
+          </div>
+          <div class="message">
+            <div class="profile-pic">
+              <img src="images/pic8.jpg" alt="messages profile image">
+            </div>
+            <div class="message-body">
+              <h5>Zenitsu</h5>
+              <p class="text-muted">just napping</p>
+            </div>
+          </div>
+          <div class="message">
+            <div class="profile-pic">
+              <img src="images/6.jpg" alt="messages profile image">
+              <div class="active"></div>
+            </div>
+            <div class="message-body">
+              <h5>Luffy</h5>
+              <p class="text-muted">errr fellow sailor</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="friend-requests">
+          <h4>Requests</h4>
+          <div class="request">
+            <div class="info">
+              <div class="profile-pic">
+                <img src="images/pic10.jpg" alt="requests profile image">
+              </div>
+              <div>
+                <h5>Majin Buj</h5>
+                <p class="text-muted">
+                  4 mutual friends
+                </p>
+              </div>
+            </div>
+            <div class="action">
+              <button class="btn btn-primary">Accept</button>
+              <button class="btn ">Decline</button>
+            </div>
+          </div>
+          <div class="request">
+            <div class="info">
+              <div class="profile-pic">
+                <img src="images/pic5.jpg" alt="requests profile image">
+              </div>
+              <div>
+                <h5>Katara</h5>
+                <p class="text-muted">
+                  1 mutual friends
+                </p>
+              </div>
+            </div>
+            <div class="action">
+              <button class="btn btn-primary">Accept</button>
+              <button class="btn ">Decline</button>
+            </div>
+          </div>
+          <div class="request">
+            <div class="info">
+              <div class="profile-pic">
+                <img src="images/pic2.jpg" alt="requests profile image">
+              </div>
+              <div>
+                <h5>Klaus Michaelson</h5>
+                <p class="text-muted">
+                  no mutual friends
+                </p>
+              </div>
+            </div>
+            <div class="action">
+              <button class="btn btn-primary">Accept</button>
+              <button class="btn ">Decline</button>
+            </div>
+          </div>
+          <div class="request">
+            <div class="info">
+              <div class="profile-pic">
+                <img src="images/pic9.jpg" alt="requests profile image">
+              </div>
+              <div>
+                <h5>Hidan</h5>
+                <p class="text-muted">
+                  8 mutual friends
+                </p>
+              </div>
+            </div>
+            <div class="action">
+              <button class="btn btn-primary">Accept</button>
+              <button class="btn ">Decline</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+  <div class="customize-theme">
+    <div class="card">
+      <h2>Customize Your view</h2>
+      <p>Manage Your font size, color, background</p>
+
+      <div class="font-size">
+        <h4>Font size</h4>
+        <div>
+          <h6></h6>
+          <div class="choose-size">
+            <span class="font-size-1 "></span>
+            <span class="font-size-2"></span>
+            <span class="font-size-3 active"></span>
+            <span class="font-size-4"></span>
+            <span class="font-size-5"></span>
+          </div>
+          <h3></h3>
+
+        </div>
+      </div>
+      <div class="color">
+        <h4>Color</h4>
+        <div class="choose-color">
+          <span class="color-1 active"></span>
+          <span class="color-2"></span>
+          <span class="color-3"></span>
+          <span class="color-4"></span>
+          <span class="color-5"></span>
+        </div>
+      </div>
+
+      <div class="background">
+        <h4>Background</h4>
+        <div class="choose-bg">
+          <div class="bg-1 active">
+            <span></span>
+            <h5 for="bg-1">light</h5>
+          </div>
+          <div class="bg-2">
+            <span></span>
+            <h5>Dim</h5>
+          </div>
+          <div class="bg-3">
+            <span></span>
+            <h5 for="bg-3">Dark</h5>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
